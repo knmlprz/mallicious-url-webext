@@ -7,6 +7,9 @@
         "service_worker": "background.js"
     },
     "permissions": [
-        "tabs", "https://*/", "http://*/"
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://*/", "http://*/"
     ]
 }
