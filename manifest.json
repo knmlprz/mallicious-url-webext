@@ -1,0 +1,15 @@
+{
+    "name": "Safe domain",
+    "description": "Determine if this domain is safe or not",
+    "version": "0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://*/", "http://*/"
+    ]
+}
